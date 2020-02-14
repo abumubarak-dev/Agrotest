@@ -10,7 +10,7 @@ import retrofit2.http.POST;
 
 public interface ApiEndPoint {
 
-    @POST("get-sample-farmers")
+    @GET("get-sample-farmers")
     Call<Records> getPostCall();
 
 }
